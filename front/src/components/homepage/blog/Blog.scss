@@ -1,0 +1,63 @@
+#blog {
+    .blog {
+        .container {
+            .my_blog {
+                .upper {
+                    text-align: center;
+
+                    p {
+                        color: gray;
+                    }
+
+                    .p_one {
+                        font-size: 30px;
+                    }
+                }
+
+                .cards {
+                    display: flex;
+                    gap: 30px;
+                    padding-top: 100px;
+                   
+                    .card {
+                        .image {
+                            background-image: url('../../../assets/images/hamidasimage41.jpg');
+                            background-size: cover;
+                            height: 290px;
+                        }
+
+                        .detail {
+                            .pp {
+                                display: flex;
+                                gap: 10px;
+                            }
+
+                            .one,
+                            .two {
+                                color: gray;
+                            }
+
+                            .three {
+                                font-size: 30px;
+                                width: 380px;
+                            }
+
+                            .foot {
+                                display: flex;
+                                justify-content: space-between;
+
+                                p {
+                                    color: gray;
+                                }
+
+                                .icon {
+                                    color: gray;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

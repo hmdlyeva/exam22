@@ -1,0 +1,25 @@
+#hero{
+    .hero{
+        .container{
+            .my_hero{
+                text-align: center;
+                padding-top: 270px;
+                background-image: url('../../../assets//images/hamidasimage48.jpg');
+                background-size: cover;
+                height: 500px;
+                // background-color:black;
+                // opacity: 0.9;
+                p{
+                    font-size: 20px;
+                    color: white;
+                }
+                button{
+                    background-color: inherit;
+                    border: 1px solid white;
+                    color: white;
+                    padding: 10px 20px;
+                }
+            }
+        }
+    }
+}

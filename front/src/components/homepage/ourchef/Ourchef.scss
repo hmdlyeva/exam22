@@ -1,0 +1,36 @@
+#our_chef {
+    .our_chef {
+        .container {
+            .my_our_chef {
+                display: flex;
+
+                .left_side {
+                    background-image: url('../../../assets//images/hamidasimage37.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    height: 520px;
+                    width: 320px;
+                    flex: 1;
+                }
+
+                .right_side {
+                    flex: 1;
+                    margin: 70px;
+
+                    .p_one {
+                        color: gray;
+                    }
+
+                    .p_two {
+                        font-size: 30px;
+                    }
+
+                    span {
+                        color: gray;
+                        line-height: 23px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+#add_page {
+    .add_page {
+        .container {
+
+            .my_add {
+                padding-top: 100px;
+                display: flex;
+                gap: 30px;
+
+                input {
+                    padding: 20px;
+                    width: 200px;
+                }
+            }
+
+            button {
+                margin-top: 20px;
+                padding: 1% 40px;
+            }
+        }
+    }
+
+}
+button{
+    cursor: pointer;
+}
+.card{
+    cursor: pointer;
+}
+input{
+    cursor: pointer;
+}

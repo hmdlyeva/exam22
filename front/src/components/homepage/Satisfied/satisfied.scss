@@ -1,0 +1,68 @@
+#satisfied {
+    .satisfied {
+        .container {
+            .my_satisfied {
+                .upper {
+                    text-align: center;
+
+                    p {
+                        color: gray;
+                    }
+
+                    .our_p {
+                        color: black;
+                        font-size: 20px;
+                    }
+                }
+
+                .cards {
+                    display: flex;
+                    gap: 30px;
+                    padding-top: 100px;
+
+
+                    .card {
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+
+                        padding-top: 50px;
+
+                        .circle {
+                            border-radius: 50%;
+                            background-image: url('../../../assets/images/hamidasimage38.jpg');
+                            background-size: cover;
+                            background-position: center;
+                            height: 130px;
+                            width: 130px;
+                            margin-left: 120px;
+                            margin-top: -290px;
+                            position: absolute;
+                            z-index: 1;
+                        }
+
+                        .card_body {
+                            text-align: center;
+                            border: 1px solid rgb(189, 189, 189);
+                            padding: 35px 60px;
+                            padding-top: 110px;
+
+                            .stars {
+                                text-align: center;
+                            }
+
+                            .detail {
+                                p {
+                                    color: gray;
+                                    width: 250px;
+                                }
+
+                                span {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

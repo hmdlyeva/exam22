@@ -1,0 +1,50 @@
+#navbar {
+    position: fixed;
+    min-width: 1200px;
+    background-color: rgb(72, 72, 72);
+    z-index: 2;
+
+    .navbar {
+        background-color: inherit;
+        // background-color: rgb(148, 148, 148);
+
+        .container {
+            .my_navbar {
+                display: flex;
+                justify-content: space-between;
+                padding: 15px 40px;
+                align-items: center;
+
+                .left_side {
+                    button {
+                        background-color: inherit;
+                        padding: 10px;
+                        border: 1px solid white;
+                        color: white;
+                    }
+
+                }
+
+                .right_side {
+                    ul {
+                        display: flex;
+                        gap: 20px;
+
+                        li {
+                            color: gainsboro;
+                            list-style: none;
+                            cursor: pointer;
+                        }
+
+                        ;
+
+                        li:hover {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

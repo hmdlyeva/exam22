@@ -1,0 +1,101 @@
+#menu_dis {
+    .menu_dis {
+        .container {
+            .my_menu {
+                .upper_menu {
+                    text-align: center;
+
+                    p {
+                        font-size: 25px;
+                        color: black;
+                    }
+
+                    .btns {
+                        display: flex;
+                        gap: 20px;
+                        justify-content: center;
+                        padding-top: 50px;
+
+                        button {
+                            padding: 10px;
+                            border: none;
+                            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                        }
+
+                        button:hover {
+                            background-color: orange;
+                        }
+
+                        .btn_one {
+                            background-color: rgb(222, 151, 21);
+                        }
+                    }
+                }
+
+                .cards {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 20px;
+                    padding-top: 50px;
+
+
+                    .card {
+                        display: flex;
+                        padding: 20px;
+                        justify-content: space-between;
+                        width: 45%;
+
+                        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                        align-items: center;  
+
+                        .left_side {
+                            display: flex;
+                            gap: 10px;
+                            // align-items: center;
+
+                            // .circle {
+                            //     background-image: url('./../../../assets/images/hamidasimage44.jpg');
+                            //     width: 100px;
+                            //     height: 100px;
+                            //     background-size: cover;
+                            //     background-position: center;
+                            //     border-radius: 50%;
+                            // }
+                            img {
+                                border-radius: 50%;
+
+                            }
+                        }
+
+                        .right_side {
+                            font-size: 30px;
+                        }
+                    }
+
+                    .card:hover {
+                        background-color: orange;
+                    }
+                }
+
+                .foot_menu {
+                    text-align: center;
+                    padding-top: 50px;
+                    padding-bottom: 50px;
+
+                    button {
+                        padding: 20px 10px;
+                        border: 1px solid orange;
+                        color: orange;
+                        background-color: white;
+                        cursor: pointer;
+                    }
+
+                    button:hover {
+                        background-color: orange;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
